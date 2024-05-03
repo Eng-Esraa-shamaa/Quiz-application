@@ -1,0 +1,80 @@
+.container {
+    flex: column;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 40px 50px;
+    margin: auto;
+    width: 640px;
+    margin-top: 150px;
+    gap: 20px;
+    color: #262626;
+}
+.container hr {
+    border:none;
+    height: 2px;
+    background-color: #707070;
+}
+.container h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px;
+}
+.container h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+
+.options li{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding-left: 10px;
+    border: 1px solid #686868;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.container button {
+    background-color: #92116b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    width: 250px;
+    margin: auto;
+    height: 65px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+.container button:hover {
+    background-color: #b32d8f;
+}
+.index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: #262626;
+    margin-top: 20px;
+}
+
+.correct {
+    background-color: #4caf50;
+    border-color: #4caf50;
+    color: white;
+}
+.wrong {
+    background-color: #f44336;
+    border-color: #f44336;
+    color: white;
+}
